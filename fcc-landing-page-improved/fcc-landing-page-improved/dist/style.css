@@ -1,0 +1,131 @@
+body{
+  text-align:center;
+  background-image: linear-gradient(#AFCBFF, #C5A3FF);
+}
+
+@media screen and (max-width: 1500px){
+  body{
+    background-color: #BFFCC6;
+  }
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-family: "Cute Font";
+  font-size: 35px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0px;
+}
+
+.header-img {
+  height: 100px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link:hover {
+  color: #CC0099;
+}
+
+nav {
+  width: 100%;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+.list {
+  list-style: square;
+  flex-direction: column;
+  margin: auto;
+  width: 30%;
+  font-size: 22px;
+  font-family: "Do Hyeon";
+}
+
+h1 {
+  font-family: "Cute Font";
+  font-size: 60px;
+}
+
+h1:hover {
+  color: #CC0099
+}
+
+h2 {
+  font-family: "Cute Font";
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 45px;
+  font-family: "Cute Font";
+}
+
+.unbox {
+  font-size: 20px;
+  font-family: "Do Hyeon";
+}
+
+.more {
+  font-size: 25px;
+  font-family: "Do Hyeon";
+}
+
+h4 {
+  font-size: 55px;
+  font-family: "Cute Font";
+}
+
+.best {
+  font-family: "Do Hyeon";
+  font-size: 25px;
+}
+
+.world {
+  font-family: "Do Hyeon";
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 45px;
+  font-family: "Cute Font";
+}
+
+.us {
+  font-family: "Do Hyeon";
+  font-size: 25px;
+  flex-direction: column;
+  list-style: none;
+}
+
+h6 {
+  font-size: 45px;
+  font-family: "Cute Font";
+}
+
+.email {
+  font-family: "Do Hyeon";
+  font-size: 15px;
+}
+
+label {
+  font-family: "Do Hyeon";
+  font-size: 25px;
+}
+
+.submit {
+  font-family: "Do Hyeon";
+  font-size: 15px;
+}
